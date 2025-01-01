@@ -50,7 +50,7 @@
         @apply text-base pt-1 text-gray-700;
     }
     .anch {
-        @apply py-4 w-full hover:bg-gray-200 text-center;
+        @apply py-4 w-full hover:bg-gray-200 text-center ;
     }
     
 }

@@ -7,6 +7,7 @@ import { IoMdClose } from "react-icons/io";
 
 const Navigation = () => {
   const [navOpen, setNavOpen] = useState(false);
+
   
   return (
     <div className=' p-3 md:px-20 '>
@@ -33,7 +34,7 @@ const Navigation = () => {
         <IoMdClose onClick={() => setNavOpen(false)} className=' cursor-pointer text-3xl' />
           </div>
 
-          <div className='w-full flex flex-col items-center justify-center '>
+          <div className='w-full flex flex-col items-center justify-center ' onClick={() => setNavOpen(false)}>
           <AnchorLink className=' anch' href="#services">Services</AnchorLink>
           <AnchorLink className=' anch' href="#course">Course</AnchorLink>
           <AnchorLink className=' anch' href="#about">About</AnchorLink>
